@@ -3,8 +3,8 @@ import { TodoListService } from './todo-list.service';
 import { Todo } from './todo-list.entity';
 import { ApiBody, ApiOperation, ApiResponse, ApiTags } from '@nestjs/swagger';
 import { DeleteResult, UpdateResult } from 'typeorm';
-import { UpdateResponse } from './types/updateResponse';
-import { DeleteResponse } from './types/deleteResponse';
+import { UpdateResponse } from './types/UpdateResponse';
+import { DeleteResponse } from './types/DeleteResponse';
 import {newTodo} from './types/newTodo';
 
 
